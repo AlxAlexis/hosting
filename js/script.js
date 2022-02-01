@@ -1,8 +1,15 @@
 const btnMenu = document.querySelector("#btnMenu");
 const menu = document.querySelector("#menu");
+const btnInicio = document.querySelectorAll("#btnInicio");
+
 btnMenu.addEventListener("click", function(){
 	menu.classList.toggle("mostrar"); 
 })
+for(let i = 0; i < btnInicio.length; i++){
+	btnInicio[i].addEventListener("click", function(){
+		menu.classList.toggle("mostrar");
+	})
+}
 const subMenuBtn = document.querySelectorAll(".submenu-btn");
 
 for (let i = 0; i < subMenuBtn.length; i++){
