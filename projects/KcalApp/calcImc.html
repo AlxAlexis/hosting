@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>KcalApp</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style/estilo.css">
+	<link rel="stylesheet" type="text/css" href="style/estiloImc.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Raleway:ital,wght@1,200&display=swap" rel="stylesheet">
+	<script src="js/calcImc.js"></script>
+</head>
+<body>
+	<nav class="nav">
+				<ul class="nav__ul">
+					<li class="nav__li logo"><a href="index.html">KcalApp</a></li>
+					<li class="nav__li" ><a href="index.html"><i class="fas fa-home"></i>Inicio</a></li>
+					<li class="nav__li"><a href="nosotros.html"><i class="fas fa-question-circle"></i>Ayuda</a></li>
+				</ul>
+		</nav>
+		<nav class="nav__responsive">
+				<div class="nav-container-small">
+					<p class="nav__logo" >KcalApp</p>
+					<div class="nav__button-bar">
+						<i class="fas fa-bars"></i>
+					</div>
+				</div>
+				<div class="nav-container-objects" id="nav2">
+					<ul class="nav__ul-2">
+						<li class="nav__li-2" id="inicio-resp"><a href="index.html"><i class="fas fa-home"></i>Inicio</a></li>
+						<li class="nav__li-2" id="inicio-resp"><a href="calcCalory.html"><i class="fas fa-calculator"></i>Calculadora de calorías</a></li>
+						<li class="nav__li-2" id="inicio-resp"><a href="calcImc.html"><i class="fas fa-calculator"></i>Calculadora de IMC</a></li>
+						<li class="nav__li-2"><a href="ayuda.html"><i class="fas fa-question-circle"></i>Ayuda</a></li>
+					</ul>
+				</div>
+		</nav>
+		<center>
+		<h1>Calculadora de IMC</h1>
+		<h2>(Indice de masa corporal)</h2>
+		</center>
+		<div class="calc">
+			Ingrese sus datos:<br>
+			Peso: <input type="number" id="peso" class="datos" > Kg<br>
+			Altura: <input type="number" id="altura" class="datos" > Cm<br>
+			<center><button onclick="calcular();">Calcular</button></center>
+		</div>
+
+		<center class="resultadoImc">
+			<h3 id="resultado">IMC: </h3>
+			<h3 id="estado">Estado: </h3>
+			<p><b>IMC normal: Entre 18.5 – 24.9</b></p>
+		</center>
+
+		<footer >
+			<div class="footer">
+				<p>KcalApp© - Hecho por <a target="_blank" href="https://www.instagram.com/alexis_piovoso/">Alexis Piovoso</a> - 2022</p>
+			</div>
+		</footer>
+</body>
+</html>

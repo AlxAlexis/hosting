@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Piedra Papel Tijera</title>
+	<script type="text/javascript" src="codig.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<center><h1>PIEDRA PAPEL O TIJERA</h1>
+	<div class="juego">
+		<label><b>Elige una opción: </b></label>
+		<select id="select" class="select">
+			<option value="1"><b>Piedra</b></option>
+			<option value="2"><b>Papel</b></option>
+			<option value="3"><b>Tijera</b></option>
+		</select>
+		<button class="boton" onclick="jugar();"><b>Jugar!</b></button>
+		<div class="resultado">
+			<h2 id="maquina" class="maquina">La máquina jugó: ---</h2>
+			<h3 id="estado" class="estado"></h3>
+		</div>
+	</div>
+	<div class="resultados">
+		<b class="rondas"id="totales"></b>
+		<b class="rondas"id="ganadas"></b>
+		<b class="rondas"id="perdidas"></b>
+		<b class="rondas"id="empatadas"></b>
+	</div></center>
+</body>
+</html>

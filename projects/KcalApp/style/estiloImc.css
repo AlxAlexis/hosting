@@ -1,0 +1,17 @@
+h1,h2{
+	margin: 10px;
+}
+.resultadoImc{
+	margin-top: 20vh;
+}
+.datos{
+	margin: 10px;
+}
+.calc{
+	margin: 10px;
+	margin-top: 25px;
+}
+.calc button{
+	width: 50%;
+	margin-top: 10px;
+}

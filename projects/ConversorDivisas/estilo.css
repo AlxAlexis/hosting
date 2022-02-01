@@ -1,0 +1,44 @@
+*{
+	font-family: 'Oswald', sans-serif;
+}
+body{
+	background-image:
+	linear-gradient(
+      rgba(0, 0, 0, 0.3), 
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(dollars.jpg);
+}
+.box{
+	background-color: #6AC479;
+	display: inline-block;
+	padding: 10vh;
+	border-radius: 15px;
+
+}
+.input{
+	margin: 25px;
+
+}
+
+.input input{
+	background-color: #079E2E;
+	height: 25px;
+}
+
+.input button{
+	margin: 10px;
+	border-radius: 10px;
+	background-color: #079E2E;
+	height: 30px;
+	width: 50px;
+}
+#de,#a{
+	background-color: #079E2E;
+	height: 35px;
+	width: 60px;
+	margin:  15px;
+}
+h1{
+	font-family: 'Oswald', sans-serif;
+}

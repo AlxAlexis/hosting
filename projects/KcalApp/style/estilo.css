@@ -1,0 +1,173 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Oswald', sans-serif;
+
+}
+body{
+	background-color: #b9c9d0;
+	
+}
+a{
+	color: #2836A0;
+	text-decoration: none;
+}
+a:visited{
+	text-decoration: none;
+	color: #2836A0;
+}
+a:hover{
+	text-decoration: none;
+	color: #2836A0;
+}
+}
+.nav-container-small{
+	display: none;
+}
+
+.nav__ul{
+	background-color: #2836A0;
+	height: 55px;
+	display: block;
+}
+.nav__li{
+	display: inline-block;
+	margin: 10px;
+}
+.inicio{
+	text-align: center;
+}
+.inicio p{
+	text-align: left;
+}
+.nav__li a{
+	font-size: 20px;
+	text-decoration: none;
+	color: #99BAF1;
+	font-family: sans-serif;
+	transition: color 0.3s;
+	padding: 5px;
+	border: 1px solid #99BAF1;
+	border-radius: 10px;
+}
+.nav__responsive{
+	display: none;
+}
+.fas{
+	margin-right: 10px ;
+}
+.nav__li a:hover{
+
+}
+.logo a{
+	font-size: 30px !important;
+	font-family: none !important;
+	border: none !important;
+}
+.logo a:hover{
+	border: none !important;
+}
+@media only screen and (max-width: 700px){
+.nav__responsive{
+	display: block;
+	height: 50px;
+	width: 100%;
+}
+.nav__ul{
+	display: none;
+}
+.nav-container-small{
+	background-color: #2836A0;
+	height: 50px;
+}
+.nav__logo{
+	font-size: 22px;
+	display: inline-block;
+	margin: 10px;
+	color: #99BAF1;
+}
+.nav__button-bar{
+	font-size: 22px;
+	display: inline-block;
+	margin: 10px;
+	float: right;
+	color: #99BAF1;
+	border-radius: 10px;
+	
+}
+.nav-container-objects{
+	position: relative;
+	height: 100vh;
+	width: 75%;
+	background: #99BAF1;
+	left: -1000px;
+	transition: all 0.5s;
+	z-index: 1000;
+}
+.nav__button-bar i:hover{
+		background-color: #99BAF1;
+		color: #2836A0;
+		cursor: pointer;
+		border-radius: 10px;
+		
+	}
+.nav__responsive:hover > .nav-container-objects{
+	left: 0;
+}
+.nav__li-2{
+		padding: 20px;
+		font-size: 18px;
+		border-bottom: 2px solid #2836A0;
+	}
+.inicio{
+	padding-top: 20px;
+}
+.inicio p{
+	font-size: 15px;
+	padding: 10px;
+	font-family: 'Oswald', sans-serif;
+}
+h1{
+	font-size: 25px;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+}
+.botones{
+	display: block;
+	padding: 13vh 0;
+}
+.boton{
+	padding: 10px;
+	margin-top: 20px;
+	font-size: 20px;
+	display:block;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #2836A0;
+	color: #99BAF1;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px 1px black;
+	cursor: pointer;
+}
+.footer{
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 35px;
+    background-color: #2836A0;
+    text-align: center;
+    color: #99BAF1 ;
+}
+.footer a{
+	color: #99BAF1;
+}
+
+
+
+
+
+
+
+}
+
+

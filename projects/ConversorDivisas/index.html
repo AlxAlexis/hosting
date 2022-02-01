@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Divisas</title>
+	<script src="codigo.js" defer></script>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+	<center>
+		<div class="box">
+			<h1>Conversor de divisas</h1>
+			<div class="dolar-hoy">
+				<h2 id="date">Valor del dolar hoy: </h2>
+				<p id="dolar-oficial">Oficial: Compra: Venta: </p>
+				<p id="dolar-blue">Blue: Compra: Venta: </p>
+			</div>
+			<div class="input">
+				<input type="number" id="cantidad" value="0" onchange="convertir()">
+				<button>Enter</button>
+			</div>
+			<span id="valor">$ 0</span>
+			<select id="de" onchange="convertir()">
+				<option value="1" selected="select">Peso</option>
+				<option value="2">Dolar</option>
+			</select>
+			<b> A </b>
+			<select id="a" onchange="convertir()">
+				<option value="1">Peso</option>
+				<option value="2" selected="select">Dolar</option>
+			</select>
+			<h2 id="resultado">Resultado: $0.00</h2>
+			
+		</div>
+	</center>
+</body>
+</html>

@@ -1,0 +1,22 @@
+h1{
+	text-align: center !important;
+	padding: 15px;
+}
+p{
+	padding-bottom: 10px;
+}
+.datos{
+	margin: 5px;
+}
+.calcCalory-header{
+	margin: 10px;
+}
+button{
+
+	width: 50%;
+
+}
+.calcCalory-res{
+	text-align: center;
+	margin-top: 30px;
+}

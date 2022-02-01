@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JavaScript</title>
+	<script src="codigo.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<center><h1>ADIVINA EL NÚMERO</h1></center>
+	<div class="inicio" id="inicio">
+		<p>El juego consiste en adivinar el número que la pc eligió 
+		aleatoriamente en la menor cantidad de intentos posibles.</p>
+		<h3>La PC elegirá un número entre 1 y <input autocomplete="off" placeholder="Ingrese un número" type="number" id="max"></h3><p style="color: red; font-size: 18px;" id="IngreseDeNuevo"></p>
+		<button id="jugar" onclick="jugar();">Jugar!</button>
+	</div>
+	<div class="juego" id="juego">
+		<div id="ingresar">
+			<label>Ingrese un número: 
+				<input type="number" id="num" onchange="adivinar()" autocomplete="off">
+			</label>
+		<button><b>Aceptar</b></button>
+	</div>
+		<h3 class="pista" id="pista">Pista: </h3>
+		<p id="intentos" class="intentos">Intentos: 0</p>
+		<div class="jugarDeNuevo" id="jugarDeNuevo">
+			<button onclick="volverJugar();">Jugar de nuevo</button>
+		</div>
+	</div>
+</body>
+</html>

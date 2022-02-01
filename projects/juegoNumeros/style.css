@@ -1,0 +1,108 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+body{
+	background-color: black;
+}
+.juego{
+	display: none;
+	color:  white;
+	text-align: center;
+	margin: 40px;
+	font-size: 25px;
+}
+.juego input{
+
+	color: white;
+	background-color: red;
+	margin: 5px;
+	font-size: 25px;
+	border-radius: 7px;
+	text-align: center;
+
+}
+
+.jugarDeNuevo{
+	display: none;
+}
+h1{
+	color: red;
+	font-size: 35px;
+	margin: 35px;
+}
+.inicio{
+	text-align: center;
+	color: white;
+	font-size: 20px;
+}
+.inicio p{
+	color: #37A1F3;
+}
+.inicio h3{
+	margin: 40px;
+	font-size: 25px;
+}
+.inicio input{
+	color: white;
+	background-color: red;
+	margin: 5px;
+	font-size: 25px;
+	border-radius: 7px;
+	text-align: center;
+}
+.inicio input::placeholder{
+	color: white;
+	text-align: center;
+}
+.inicio button{
+	margin: 40px;
+	width: 50%;
+	height: 80px;
+	background-color: #37A1F3;
+	color: red;
+	font-size: 60px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.inicio button:hover{
+	color: #37A1F3;
+	background-color: red;
+	transition: 0.5s;
+}
+.pista{
+	margin: 40px;
+	color: red;
+}
+.intentos{
+	margin: 10px;
+	color: #37A1F3;
+	font-size: 40px;
+}
+.jugarDeNuevo button{
+	width: 50%;
+	height: 80px;
+	background-color: #37A1F3;
+	color: red;
+	font-size: 60px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.jugarDeNuevo button:hover{
+	color: #37A1F3;
+	background-color: red;
+	transition: 0.5s;
+}
+#ingresar button{
+	width: 26%;
+	height: 30px;
+	font-size: 20px;
+	border-radius: 7px;
+	cursor: pointer;
+	margin: 15px;
+	color: white;
+	background-color: #37A1F3;
+}
