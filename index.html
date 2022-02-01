@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>PortFolio</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/style.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <span class="nav-bar" id="btnMenu"><i class="fas fa-bars"></i> Menú</span>
+    <nav class="main-bar">
+        <ul class="menu" id="menu">
+            <li class="menu-item"><a href="#inicio" class="menu-link"><i class="fas fa-laptop"></i> Inicio</a></li>
+            <li class="menu-item container-submenu">
+                <span class="menu-link submenu-btn"><i class="fas fa-paperclip"></i> Proyectos <i class="fas fa-chevron-down"></i></span>
+                <ul class="submenu">
+                    <li class="menu-item"><a href="projects/ConversorDivisas/index.html" class="menu-link">Conversor de divisas</a></li>
+                    <li class="menu-item"><a href="projects/KcalApp/index.html" class="menu-link">KcalApp (mobile)</a></li>
+                    <li class="menu-item"><a href="projects/PiedraPapelTijera/index.html" class="menu-link">Piedra, papel, tijera</a></li>
+                    <li class="menu-item"><a href="projects/juegoNumeros/index.html" class="menu-link">Adivina el número</a></li>
+                </ul>
+            </li>
+            <li class="menu-item"><a href="#contact" class="menu-link"><i class="fas fa-user-tie"></i> Contacto</a></li>
+        </ul>
+    </nav>
+    
+        <div class="header" id="inicio">
+            <div class="present">
+                <img src="img/computer.svg">
+                <h1>Hola, soy Alexis Piovoso</h1>
+                <h2>Frontend developer</h2>
+                <a href="#projects"><div class="button-down">
+                    <img src="img/down.svg">
+                </div></a>
+            </div>
+        </div>
+        <div class="projects" id="projects">
+            
+            <h1>MIS PROYECTOS</h1>
+            <div class="projects-flex">
+                <div class="caja0">
+                <div class="caja">
+                    <center><!-- probar con hacer un slider aca -->
+                    <a href="projects/ConversorDivisas/index.html"><div class="caja1">
+                        <div class="imagen conversor"></div>
+                        <h3>Conversor de divisas</h3>
+                        <p>Convierte peso(Arg)/dolar, con el valor actual del dolar, gracias a una API.</p>
+                    </div></a>
+                    <a href="projects/KcalApp/index.html"><div class="caja1">
+                        <div class="imagen kcalapp"></div>
+                        <h3>KcalApp (versión Mobile)</h3>
+                        <p>App para calcular calorias, solo en version mobile.</p>
+                    </div></a>
+                    <a href="projects/PiedraPapelTijera/index.html"><div class="caja1">
+                        <div class="imagen ppt"></div>
+                        <h3>Piedra, Papel o tijera</h3>
+                        <p>Juego de piedra papel o tijera contra la maquina, prueba tu suerte.</p>
+                    </div></a>
+                    <a href="projects/juegoNumeros/index.html"><div class="caja1">
+                        <div class="imagen adivinanum"></div>
+                        <h3>Adivina el numero</h3>
+                        <p>Juego en el que debes adivinar el numero que eligio la pc, en un rango de 0 a X.</p>
+                    </div></a>
+                    </center>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="contact" id="contact">
+            <div class="formulario">
+                <h2>Enviar un mensaje:</h2>
+                <form class="form" method="post">
+                    <img src="img/carta.png">
+                    <label id="name">Nombre: <input type="name"></label>
+                    <label id="email">Email: <input type="email"></label>
+                    <label id="msg">Mensaje:  </label><textarea></textarea>
+                    <button type="submit" id="enviar"><p><b>Enviar</b></p></button>
+                </form>
+            </div>
+            <div class="redes">
+                <a href="https://www.facebook.com/Alexis.Piovoso"><div class="red-social facebook"></div></a>
+                <a href="https://www.instagram.com/alexis_piovoso/"><div class="red-social instagram"></div></a>
+                <a href="https://twitter.com/alexisPiovoso1"><div class="red-social twitter"></div></a>
+            </div>
+            <div class="footer">
+                <p>PortFolio Alexis Piovoso® - 2022</p>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
