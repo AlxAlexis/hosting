@@ -277,11 +277,23 @@ a{
 	justify-content: center;
 	flex-direction: column;
 	background-color: transparent;
-	border-radius: 7px;
+	color: #000;
 	position: relative;
 	top: 0px;
 	height: 50vh;
-	width: 70%;
+	width: 100%;
+}
+.formulario iframe{
+	display: block;
+	justify-content: center;
+	flex-direction: column;
+	background-color: transparent;
+	color: #fff;
+	position: relative;
+	top: 0px;
+	width: 100%;
+	height: 50vh;
+
 }
 .formulario h2{
 	margin: 5px;
