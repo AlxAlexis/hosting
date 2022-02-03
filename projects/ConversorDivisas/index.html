@@ -11,15 +11,14 @@
 	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
-	<center>
 		<div class="box">
-			<h1>Conversor de divisas</h1>
+			<center><h1>Conversor de divisas</h1></center>
 			<div class="dolar-hoy">
-				<h2 id="date">Valor del dolar hoy: </h2>
-				<p id="dolar-oficial">Oficial: Compra: Venta: </p>
+				<h2 id="date">Fecha: </h2>
 				<p id="dolar-blue">Blue: Compra: Venta: </p>
+				<p id="dolar-oficial">Oficial: Compra: Venta: </p>	
 			</div>
-			<div class="input">
+			<center><div class="input">
 				<input type="number" id="cantidad" value="0" onchange="convertir()">
 				<button>Enter</button>
 			</div>
@@ -33,9 +32,7 @@
 				<option value="1">Peso</option>
 				<option value="2" selected="select">Dolar</option>
 			</select>
-			<h2 id="resultado">Resultado: $0.00</h2>
-			
+			<h2 id="resultado">Resultado: $0.00</h2></center>
 		</div>
-	</center>
 </body>
 </html>

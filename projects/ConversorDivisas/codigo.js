@@ -19,8 +19,8 @@ fetch(API_URL)
 			dolarOficialVenta = (dolar.casa.venta);
 			dolarOficialCompra = (dolar.casa.compra);
 		}
-		document.getElementById('dolar-oficial').innerHTML = `Oficial: Compra: ${dolarOficialCompra} Venta: ${dolarOficialVenta}`
-		document.getElementById('dolar-blue').innerHTML = `Blue: Compra: ${dolarBlueCompra} Venta: ${dolarBlueVenta}`
+		document.getElementById('dolar-oficial').innerHTML = `<b style="color : #7fff00">Oficial: </b><b style="color : red"> Compra: </b>${dolarOficialCompra} <b style="color : red">Venta: </b>${dolarOficialVenta}`
+		document.getElementById('dolar-blue').innerHTML = `<b style="color : #7fff00">Blue: </b><b style="color : red"> Compra: </b>${dolarBlueCompra} <b style="color : red">Venta: </b>${dolarBlueVenta}`
 	})
 })
 .catch(err => console.log(err))
@@ -28,7 +28,7 @@ let date = new Date();
 let day = date.getDate();
 let month = date.getMonth()+1;
 let year = date.getFullYear();
-document.getElementById('date').innerHTML = `Valor del dolar hoy: ${day}/${month}/${year}`
+document.getElementById('date').innerHTML = `Fecha: ${day}/${month}/${year}`
 
 function convertir() {
 	let valor = parseFloat(document.getElementById("cantidad").value);
