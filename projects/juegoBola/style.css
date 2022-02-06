@@ -1,0 +1,57 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #000;
+}
+.container{
+	width: 900px;
+	height: 90vh;
+	background-color: #000;
+	margin: 0 auto;
+}
+.contenedor{
+	width: 570px;
+	height: 300px;
+	border: 1px solid red;
+	position: relative;
+	margin: 3rem auto;
+}
+.score{
+	color: #fff;
+	text-align: center;
+}
+.start, .volver-jugar{
+	color: #fff;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+.start button, .volver-jugar button{
+	padding: 20px 40px;
+	font-size: 20px;
+	color: red;
+	background-color: blue;
+	border-radius: 10px;
+}
+.volver-jugar{
+	display: none;
+}
+.bloque{
+	width: 100px;
+	height: 20px;
+	position: absolute;
+	background-color: blue;
+}
+.usuario{
+	width: 100px;
+	height: 20px;
+	position: absolute;
+	background-color: tomato;
+}
+.bola{
+	height: 20px;
+	width: 20px;
+	position: absolute;
+	border-radius: 10px;
+	background-color: violet;
+}
